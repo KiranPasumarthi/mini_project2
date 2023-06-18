@@ -15,6 +15,7 @@ public class LoginTestCase extends BaseClass {
 
 		
 		LoginPage loginpage = new LoginPage(driver);
+		
 		loginpage.loginPageOfFb(exceldata.getStringData("login", 0, 0),exceldata.getStringData("login", 0, 1));
 
 		/*
