@@ -44,12 +44,13 @@ public class BaseClass {
 	public void setup() throws InterruptedException {
 
 		driver = BrowserFactory.browserStart(driver, configdata.getWebFromConfig(), configdata.getaQaUrlFromConfig());
+		Thread.sleep(3000);
 
 	}
 
 	
 	
-	@AfterMethod
+	//@AfterMethod
 	public void takescreenshot(ITestResult result) throws IOException {
 
 		if (result.getStatus() == ITestResult.FAILURE) {

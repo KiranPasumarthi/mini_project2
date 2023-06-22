@@ -6,7 +6,6 @@
       <class name="com.qa.testcases.LoginTestCase">
         <methods>
           <include name="setUpSuite"/>
-          <include name="takescreenshot"/>
           <include name="loginapp"/>
           <include name="setup"/>
           <include name="teardown"/>
